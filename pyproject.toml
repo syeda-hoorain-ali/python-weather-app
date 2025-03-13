@@ -1,7 +1,7 @@
 [project]
 name = "weather-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple weather application that provides current weather information based on your location."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

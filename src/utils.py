@@ -18,7 +18,8 @@ def get_weather_details(latitude: float, longitude: float) -> dict[str, Any] | s
         if response.status_code == 200:
             return response.json()
         
-        return "Something went wrong!"
+        print(response.reason)
+        return response.reason
 
     except Exception as e:
         print(e)
